@@ -1,0 +1,42 @@
+.staff-team {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 20px auto 10px auto;
+	width: 95%;
+}
+
+.staff {
+	background: linear-gradient(rgb(255, 83, 83), #ff0000) fixed;
+	padding: 100px 0;
+}
+
+.staff h2 {
+	color: white;
+	text-align: center;
+	margin-top: 0;
+}
+
+.staff-team > div {
+	padding: 15px;
+	margin: 5px;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	text-align: center;
+}
+
+.staff-team immagini {
+	width: 200px;
+	margin-top: 20px;
+}
+
+.about-staff {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.abt-epr p {
+	width: 50%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
